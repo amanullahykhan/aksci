@@ -185,8 +185,8 @@ You're free to use, modify, and distribute this project, including commercially,
 IT Department, Alkhidmat Foundation Ghotki
 Web development · SEO · digital content · automation tooling
 
-- GitHub: _add your GitHub profile URL here_
-- Email: _add your contact email here_
+- GitHub: [https://github.com/amanullahykhan](https://github.com/amanullahykhan)
+- Email: [amanullahykhan@gmail.com](mailto:amanullahykhan@gmail.com)
 
 ---
 
