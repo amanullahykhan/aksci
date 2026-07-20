@@ -1,0 +1,54 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aksci"
+version = "0.1.0"
+description = "Unified, AI-assisted data science toolkit: offline error diagnosis, a memory-bounded streaming pipeline, and one API over pandas, Polars, NumPy, SciPy, and scikit-learn."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Amanullah Khan" }]
+keywords = ["data-science", "pandas", "polars", "scikit-learn", "error-handling", "ai", "machine-learning"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Debuggers",
+]
+
+# Version ranges (not pins) so aksci fits into an existing project's
+# environment instead of forcing exact versions and creating conflicts.
+dependencies = [
+    "numpy>=1.24,<3",
+    "pandas>=2.0,<3",
+    "polars>=0.20,<2",
+    "pyarrow>=14.0,<21",  # required by polars for polars<->pandas conversion
+    "scipy>=1.11,<2",
+    "scikit-learn>=1.3,<2",
+    "matplotlib>=3.7,<4",
+    "joblib>=1.3,<2",
+]
+
+[project.optional-dependencies]
+# Only needed if you use ErrorResolver(ai_client=AIClient(...)) for
+# cloud-based AI-assist. Core AK-SCI works fully offline without this.
+ai = ["anthropic>=0.30"]
+dev = ["pytest>=7.4", "build>=1.0"]
+
+[project.urls]
+Homepage = "https://example.com/aksci"
+Repository = "https://example.com/aksci"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
