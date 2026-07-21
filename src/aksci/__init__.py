@@ -26,7 +26,7 @@ from .error_handler.resolver import ErrorResolver
 from .micro_pipeline.buffer import BoundedBuffer, MicroPipeline
 from .unified_api.facade import GradientDescentResult, UnifiedFrame, ml, stats
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 __author__ = "Amanullah Khan"
 
 __all__ = [
@@ -38,8 +38,4 @@ __all__ = [
     "stats",
     "GradientDescentResult",
     "AIClient",
-<<<<<<< HEAD
 ]
-=======
-]
->>>>>>> 09ef8c4e139cb28b067cbb981b77ff3e0e25afe5
