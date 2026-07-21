@@ -4,17 +4,29 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "aksci"
+<<<<<<< HEAD
 version = "0.1.1"
 description = "Unified, AI-assisted data science toolkit: offline error diagnosis, a memory-bounded streaming pipeline, and one API over pandas, Polars, NumPy, SciPy, and scikit-learn."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
+=======
+version = "0.1.0"
+description = "Unified, AI-assisted data science toolkit: offline error diagnosis, a memory-bounded streaming pipeline, and one API over pandas, Polars, NumPy, SciPy, and scikit-learn."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+>>>>>>> 09ef8c4e139cb28b067cbb981b77ff3e0e25afe5
 authors = [{ name = "Amanullah Khan" }]
 keywords = ["data-science", "pandas", "polars", "scikit-learn", "error-handling", "ai", "machine-learning"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
     "Intended Audience :: Science/Research",
+<<<<<<< HEAD
+=======
+    "License :: OSI Approved :: MIT License",
+>>>>>>> 09ef8c4e139cb28b067cbb981b77ff3e0e25afe5
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
