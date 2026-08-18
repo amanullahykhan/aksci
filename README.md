@@ -278,14 +278,14 @@ MIT © 2026 [Amanullah Khan](#author) — see [LICENSE](LICENSE).
 
 You're free to use, modify, and distribute this project, including commercially, as long as the original copyright notice and license text are kept intact in copies and substantial portions of the software. If you build on AK-SCI, a credit/link back is appreciated but not required beyond what the license already asks for.
 
-## Author
-
-**Amanullah Khan**
-IT Department, Alkhidmat Foundation Ghotki
-Web development · SEO · digital content · automation tooling
-
-- GitHub: [https://github.com/amanullahykhan](https://github.com/amanullahykhan)
-- Email: [amanullahykhan@gmail.com](mailto:amanullahykhan@gmail.com)
+## 👤 Author & Developer
+* **Amanullah Khan
+* **Developer & Maintainer:** Web Development, Front-End Engineering & Social Media Management
+* **Location:** Pakistan
+* **GitHub:** [GitHub Profile](https://github.com/amanullahykhan)
+* **HuggingFace:** [HF Profile](https://huggingface.co/ak32khan)
+* **LinkedIn:** [Linkedin](https://www.linkedin.com/in/amanullahykhan/)
+* **Support:** [☕ Buy Me a Coffee](https://amanullahykhan.gumroad.com/l/niekk)
 
 ---
 
